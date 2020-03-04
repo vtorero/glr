@@ -7,6 +7,8 @@
     <title>Mediakit - La República</title>
     <link rel="icon" type="favicon/x-icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css">-->
 </head>
 <body>
@@ -39,28 +41,28 @@
         <article>
             <div class="menu_medios">
                 <ul>
-                    <li class="active"><a href="#">La República</a></li>
-                    <li><a href="#">Libero</a></li>
-                    <li><a href="#">El Popular</a></li>
-                    <li><a href="#">Wapa</a></li>
-                    <li><a href="#">Aweita</a></li>
-                    <li><a href="#">Buenazo</a></li>
-                    <li><a href="#">Perú Sorprendente</a></li>
-                    <li><a href="#">Libero eSport</a></li>
-                    <li><a href="#">Podcast</a></li>
+                    <li><a href="" class="medio active" data-fuente="larepublica.json">La República</a></li>
+                    <li><a href="" class="medio" data-fuente="libero.json">Libero</a></li>
+                    <li><a href="" class="medio" data-fuente="popular.json">El Popular</a></li>
+                    <li><a href="" class="medio" data-fuente="wapa.json">Wapa</a></li>
+                    <li><a href="" class="medio" data-fuente="aweita.json">Aweita</a></li>
+                    <li><a href="" class="medio" data-fuente="buenazo.json">Buenazo</a></li>
+                    <li><a href="" class="medio" data-fuente="sorprendente.json">Perú Sorprendente</a></li>
+                    <li><a href="" class="medio" data-fuente="liberoesport.json">Libero eSport</a></li>
+                    <li><a href="" class="medio" data-fuente="podcast.json">Podcast</a></li>
                 </ul>
 
             </div>
         </article>
         <div class="clearfix"></div>
         <div class="content_data">
-            <div class="logo"><img src="img/logo-larepublica.png"/></div>
+            <div class="logo"><img id="logomedio" src="img/logo-larepublica.png"/></div>
             <div class="datos">
                 <ul>
-                    <li>25.8<span class="mil">mil</span><span class="fuente">Browsers únicos</span></li>
-                    <li>92.5<span class="mil">mil</span><span class="fuente">Páginas vistas</span></li>
-                    <li>68.15%<span class="fuente">Audiencia Mobile</span></li>
-                    <li>73%<span class="fuente">Audiencia Perú</span></li>
+                    <li><span id="browsers">25.8</span><span class="mil">mil</span><span class="fuente">Browsers únicos</span></li>
+                    <li><span  id="paginas">92.5</span><span class="mil">mil</span><span class="fuente">Páginas vistas</span></li>
+                    <li><span id="mobile">68.15</span>%<span class="fuente">Audiencia Mobile</span></li>
+                    <li><span id="audiencia">73</span>%<span class="fuente">Audiencia Perú</span></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
