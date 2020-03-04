@@ -1,0 +1,106 @@
+[
+ { 
+ 	"nombre": "leader-top",
+ 	"titulo": "Leader Top",
+ 	"imagen":"formatos/display/leader-top.jpg",
+ 	"dimensiones":["900x90 (Destop)","300x100 (Mobile)"],
+	 "formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+  },
+  { 
+ 	"nombre": "mega-leader-top",
+ 	"titulo": "Mega Leader Top",
+ 	"imagen":"formatos/display/megaleader-top.jpg",
+ 	"dimensiones":["960x90"],
+	 "formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+  },
+  { 
+	"nombre": "leader-grilla",
+	"titulo": "Leader Grilla ",
+	"imagen":"formatos/display/leader-grilla.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	"peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ },
+ { 
+	"nombre": "leader-ultimas-noticias",
+	"titulo": "Leader últimas noticias",
+	"imagen":"formatos/display/leader-ultimas-noticias.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	"peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ },
+ { 
+	"nombre": "strip",
+	"titulo": "Strip",
+	"imagen":"formatos/display/strip.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ },
+ { 
+	"nombre": "skycrapper",
+	"titulo": "skycrapper",
+	"imagen":"formatos/display/skycrapper.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ }
+ ,
+ { 
+	"nombre": "background",
+	"titulo": "Background",
+	"imagen":"formatos/display/background.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ },
+ { 
+	"nombre": "wide-skycrapper",
+	"titulo": "Wide Skycrapper",
+	"imagen":"formatos/display/wideskycrapper.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ }
+ ,
+ { 
+	"nombre": "down",
+	"titulo": "Down",
+	"imagen":"formatos/display/down.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ }
+ ,
+ { 
+	"nombre": "box",
+	"titulo": "Box",
+	"imagen":"formatos/display/box.jpg",
+	"dimensiones":["960x90"],
+	"formatos":"HTML5,GWD,JPG,GIF",
+	 "peso":"60Kb",
+	 "paginas":"Todas",
+	 "ubicacion":"En la cabecera"
+ }
+  
+]

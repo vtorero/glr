@@ -189,17 +189,19 @@ article .menu_medios ul li {
     width: auto;
     padding-left: 14px;
     padding-right: 14px;
+    padding-bottom: 4px;
  
 }
 
-article .menu_medios ul li.active a,
-article .menu_medios ul li.active a:visited{
+article .menu_medios ul li.activado a,
+article .menu_medios ul li.activado a:visited{
     color:white !important
 }
 
-article .menu_medios ul li.active
+article .menu_medios ul li.activado
 {
     background-color: #ff001b;
+    display: block;
     
 }
 
@@ -371,10 +373,119 @@ margin-bottom: 19px;
 }
 
 
+.seccion_formatos{
+    width:70%;
+    margin: 0px auto;
+}
+
+.seccion_formatos .menuizquierdo{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.seccion_formatos .menuizquierdo ul li{
+    list-style: none;
+}
+.seccion_formatos .menuizquierdo > ul > li:first-child > a:hover{
+    background: url(../img/menu2_ep.png) -4px -57px no-repeat;
+}
 
 
+.seccion_formatos .menuizquierdo > ul > li:first-child > a {
+    background: url(../img/menu2_ep.png) -4px -7px no-repeat;
+    padding-left: 39px;
+    padding-top: 8px;
+    height: 35px;
+    display: block;
+}
+
+.seccion_formatos .menuizquierdo > ul > li:last-child > a:hover{
+    background: url(../img/menu3_ep.png) -4px -57px no-repeat;
+}
+
+.seccion_formatos .menuizquierdo > ul > li:last-child > a {
+    background: url(../img/menu3_ep.png) -4px -7px no-repeat;
+    padding-left: 39px;
+    padding-top: 8px;
+    height: 35px;
+    display: block;
+}
+.seccion_formatos .menuizquierdo > ul > li > a:hover{
+    background: url(../img/menu_ep.png) -4px -46px no-repeat;
+    font-weight: bolder;
+
+}
+
+.seccion_formatos .menuizquierdo > ul > li > a{
+    background: url(../img/menu_ep.png) no-repeat;
+    background-position: -4px -7px;
+    padding-left: 39px;
+    padding-top: 12px;
+    height: 35px;
+    display: block;
+}
+
+.seccion_formatos .menuizquierdo ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Gotham";
+    font-size: 18px;
+}
+.seccion_formatos .menuizquierdo .activado a{
+    color:white;
+}
+
+.seccion_formatos .menuizquierdo .activado{
+background:
+black;
+border-radius: 20px;
+}
+
+.seccion_formatos .creatividad{
+    float: left;
+    margin-top: 50px;
+    margin-left: 59px;
+    border-right: 1px solid black;
+    padding-right: 50px;
+    margin-bottom: 70px;
+}
 
 
+.seccion_formatos .info{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.seccion_formatos .creatividad .titulo {
+    font-family: "GothamBold";
+    font-size: 24px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+.seccion_formatos .info .titulo{
+    font-family: "GothamBold";
+margin-top: 25px;
+}
+
+.seccion_formatos .info{
+    font-family: "Gotham";
+}
+
+.seccion_formatos .info #demo a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 27px;
+    display: block;
+    width: 63px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 19px;
+    font-family: "Gothambold";
+}
 
 
 

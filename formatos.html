@@ -7,6 +7,8 @@
     <title>Mediakit - La República</title>
     <link rel="icon" type="favicon/x-icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/main.js?v=1"></script>
     <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css">-->
 </head>
 
@@ -21,8 +23,8 @@
         <nav class="menu formatos">
             <div class="logo"><a href="index.html"><img src="img/GLR-logo.png"></a></div>
             <ul>
-                <li><a href="estandar.html">ESTÁNDAR</a></li>
-                <li class="active"><a href="richmedia.html">RICHMEDIA</a></li>
+                <li class="active"><a href="formatos.html">ESTÁNDAR</a></li>
+                <li ><a href="richmedia.html">RICHMEDIA</a></li>
                 <li ><a href="video.html">VIDEO</a></li>
                 <li ><a href="contenido.html">CONTENIDO</a></li>
                 <li ><a href="contacto.html">CONTACTO</a></li>
@@ -31,14 +33,56 @@
 
         </nav>
     </div>
-    <section class="seccion_contacto">
-        <article>
-          
-        </article>
-         <div class="clearfix"></div>
-     
-    
-        <div class="clearfix"></div>
+    <section class="seccion_formatos">
+        <div class="menuizquierdo">
+            <ul>
+            <li class="menuleft activado"><a href="" class="formato" data-formato="leader-top">LEADER TOP</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="mega-leader-top">MEGA LEADER TOP</a></li>
+            <li class="menuleft"><a  href="" class="formato" data-formato="leader-grilla">LEADER GRILLA</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="leader-ultimas-noticias">LEADER ÚLTIMAS NOTICIAS</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="strip">STRIP</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="skycrapper">SKYCRAPPER</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="background">BACKGROUND</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="wide-skycrapper">WIDE SKYCRAPPER</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="down">DOWN</a></li>
+            <li class="menuleft"><a href="" class="formato" data-formato="box">BOX</a></li>
+            </ul>
+
+        </div>
+        <div class="creatividad">
+            <div class="titulo" id="titulo">LEADER TOP</div>
+            <div class="imagen">
+                <img id="imagenformato" src="formatos/display/leader-top.jpg"/>
+            </div>
+        </div>
+        <div class="info">
+            <div class="titulo">Dimensiones</div>
+            <div id="dimensiones">
+                900x90 (Desktop)<br>
+                320x100 (Mobile)
+            </div>
+            <div class="titulo">Formatos</div>
+            <div id="formatos">
+                HTML5,GWD,GIF,JPG
+            </div>
+            <div class="titulo">Peso</div>
+            <div id="peso">
+                Máximo 60Kb
+            </div>
+            <div class="titulo">Páginas</div>
+            <div id="paginas">
+                Todas
+            </div>
+            <div class="titulo">Ubicación</div>
+            <div id="ubicacion">
+                En la Cabecera
+            </div>
+            
+            <div id="demo">
+            <a href="#">Demo</a>
+            </div>
+
+        </div>
    
 
     </section>
