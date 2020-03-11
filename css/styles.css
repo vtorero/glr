@@ -242,36 +242,145 @@ article .menu_medios ul li a{
 }
 
 .content_data{
-    display: flex;
-    width: 90%;
+    position: relative;
+    display: block;
+    width: 80%;
     margin: 0px auto;
-    flex-wrap: wrap;
+    
 }
 
 .content_data .logo {
-flex-grow: 1;
-    width: 20%;
+display: block;
+float: left;
 }
 .content_data  #caja1
-{    flex-grow: 1;
-    
-}
-.content_data  #caja2{
-    flex-grow: 1;
-    }
-.content_data  #caja3{
-    flex-grow: 1;
+{  
+display: block;
+float: left;
+border-right: 1px solid white;
+padding-right: 28px;
+margin-right: 35px;
+margin-left: 17px;
+margin-top: 20px;
 }
 
-.content_data #caja1 #browsers1,.content_data #caja1 #paginas1{
+#caja1 .browsers1{
+    border-bottom: 1px solid white;
+}
+
+.content_data  #caja2{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-right: 19px;
+    border-right: 1px solid white;
+    margin-top: 19px;
+    }
+
+.content_data #caja3 #generos #hombre{
+    display: block;
+    float: left;
+
+}  
+.content_data #caja3 #generos #mujer{
+    display: block;
+    float: left;
+
+}  
+
+.content_data #caja2 #desk #desktop1,
+.content_data #caja2 #mob #mobile1{
+    float: left;
+    font-size: 32px;
+    color: white;
+    font-family: "GothamBold";  
+}
+
+
+.content_data  #caja3{
+    display: block;
+    float: left;
+    margin-top: 13px;
+}
+
+.content_data #caja1 #browsers1,.content_data #caja1 #paginas1,
+.content_data #caja3 #generos #hombre #valorH,
+.content_data #caja3 #generos #mujer #valorM{
     font-size: 40px;
     color: white;
     font-family: "GothamBold";
 }
 
+.content_data #caja3 #generos #hombre #valorH{
+    width: 140px;
+    background-image: url(../img/iconos-info-04.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 32%;
+}
+
+.content_data #caja3 #generos #mujer #valorM{
+width: 140px;
+text-align: right;
+background-image: url(../img/iconos-info-05.png);
+background-size: 33%;
+background-repeat: no-repeat;
+margin-left: 23px;
+}
+
+.content_data #caja2 #desk #desktop1 {
+    float: left;
+    font-size: 32px;
+    color: 
+    white;
+    font-family: "GothamBold";
+    background-image: url(../img/iconos-info-06.png);
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 186px;
+    height: 49px;
+}
+.content_data #caja2 #mob #mobile1 {
+float: left;
+font-size: 32px;
+color:white;
+font-family: "GothamBold";
+background-image: url(../img/iconos-info-07.png);
+background-size: 28%;
+background-repeat: no-repeat;
+background-position: center right;
+width: 186px;
+height: 49px;
+}
+
+.content_data #edades .fuenteedad{
+    font-size: 14px;
+color:white;
+font-family: "Gotham";
+}
+
+#edad1,#edad2,#edad3,#edad4,#edad5{
+    float: left;
+    font-size: 26px;
+    color:    white;
+    font-family: "GothamBold";
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+.content_data #caja3 #generos{
+    border-bottom: 1px solid white;
+    display: block;
+    height: 73px;
+}
+
+.content_data #caja3 #generos #mujer .fuente{
+    text-align: right;
+}
 
 .content_data .logo img{
-    width: 250px;
+    width: 210px;
 }
 .content_data .datos ul li{
     list-style: none;
@@ -306,10 +415,11 @@ flex-grow: 1;
 }
 
 .content_data .fecha{
-    text-align: center;
-    color: white;
+    text-align: left;
+    color:white;
     font-family: "Gotham";
     font-size: 12px;
+    margin-top: 20px;
 }
 
 .logomedio{
