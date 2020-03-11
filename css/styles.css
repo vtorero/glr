@@ -42,17 +42,36 @@ font-size: normal;
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 body{
     background: url(../img/logo-patron.png);
 }
 
 .wrap{
-    width: 1250px;
+    width: 90%;
     margin:0px auto;
 }
 
 /*CABECERA*/
+
+#infoaudiencia{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu_medios{
+width: 68%;
+margin: 0px auto;
+}
+
+.menu_medios ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 #header{
     width: 100%;
@@ -143,15 +162,24 @@ body{
     overflow: hidden;
 }
 
-.seccion_principal article{
-    width: 35%;
+.seccion_principal #infoaudiencia{
+    width: 50%;
     margin: 0 auto;
-    margin-top: 0px;
     text-align: center;
     margin-top: 35px;
+    margin-bottom: 40px;
 }
 
-.seccion_principal article .titulo{
+.seccion_principal #infodatos{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+
+}
+
+.seccion_principal #infoaudiencia .titulo{
     color:white;
     font-size: 31px;
     font-family: "Gotham";
@@ -214,16 +242,36 @@ article .menu_medios ul li a{
 }
 
 .content_data{
-    width: 85%;
+    display: flex;
+    width: 90%;
     margin: 0px auto;
+    flex-wrap: wrap;
 }
 
 .content_data .logo {
+flex-grow: 1;
     width: 20%;
-    float: left;
 }
+.content_data  #caja1
+{    flex-grow: 1;
+    
+}
+.content_data  #caja2{
+    flex-grow: 1;
+    }
+.content_data  #caja3{
+    flex-grow: 1;
+}
+
+.content_data #caja1 #browsers1,.content_data #caja1 #paginas1{
+    font-size: 40px;
+    color: white;
+    font-family: "GothamBold";
+}
+
+
 .content_data .logo img{
-    width: 270px;
+    width: 250px;
 }
 .content_data .datos ul li{
     list-style: none;
@@ -233,7 +281,7 @@ article .menu_medios ul li a{
 .content_data .datos ul li {
     list-style: none;
     float: left;
-    font-size: 89px;
+    font-size: 80px;
     color: white;
     font-family: "GothamBold";
     margin-top: 67px;
@@ -246,11 +294,11 @@ article .menu_medios ul li a{
     font-size: 30px;
 }
 
-.content_data .datos ul li .fuente{
-    font-size: 19px;
+.content_data .fuente{
+    font-size: 15px;
     display: block;
-    text-align: center;
-    font-family: "Gotham";
+    font-family: "GothamBold";
+    color:    white;
 }
 
 .content_data > div.datos > ul > li:nth-child(4){
@@ -374,14 +422,16 @@ margin-bottom: 19px;
 
 
 .seccion_formatos{
-    width:70%;
+    width: 90%;
     margin: 0px auto;
+    display: block;
 }
 
 .seccion_formatos .menuizquierdo{
     float: left;
     margin-top: 50px;
     margin-bottom: 100px;
+    width: 20%;
 }
 
 .seccion_formatos .menuizquierdo ul li{
@@ -398,6 +448,7 @@ margin-bottom: 19px;
     padding-top: 8px;
     height: 35px;
     display: block;
+    ;
 }
 
 .seccion_formatos .menuizquierdo > ul > li:last-child > a:hover{
@@ -449,6 +500,7 @@ border-radius: 20px;
     border-right: 1px solid black;
     padding-right: 50px;
     margin-bottom: 70px;
+    width: 40%;
 }
 
 
@@ -456,6 +508,7 @@ border-radius: 20px;
     float: left;
     margin-top: 50px;
     margin-left: 50px;
+    width: 25%;
     
 }
 
