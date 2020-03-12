@@ -52,6 +52,11 @@ body{
         margin:0px auto;
 }
 
+.wrapfooter{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .content{
     width: 100%;
     margin: 0 auto;
@@ -66,7 +71,7 @@ body{
 }
 
 .menu_medios{
-width: 42%;
+width: 650px;
 margin: 0px auto;
 }
 
@@ -114,9 +119,10 @@ margin: 0px auto;
 }
 
 .menu{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     height: 100px;
+    text-align: center;
 }
 .menu ul li a,
 .menu ul li a:visited{
@@ -127,7 +133,7 @@ margin: 0px auto;
 .menu ul li{
     font-size: 19px;
     display: inline-block;
-    margin: 30px 25px 0px 79px;
+    margin: 30px 25px 0px 17px;
     line-height: 43px;
     color: white;
     font-family: "Gotham";
@@ -248,7 +254,7 @@ article .menu_medios ul li a{
 .content_data{
     position: relative;
     display: block;
-    width: 85%;
+    width: 1329px;
     margin: 0px auto;
     
 }
@@ -263,8 +269,8 @@ margin-left: 10%;
     display: block;
     float: left;
     border-right: 1px solid white;
-    padding-right: 28px;
-    margin-right: 35px;
+    padding-right: 23px;
+    margin-right: 21px;
     margin-left: 17px;
     margin-top: 16px;
 }
@@ -286,7 +292,7 @@ margin-left: 10%;
 .content_data #caja3 #generos #hombre{
     display: block;
     float: left;
-
+    margin-bottom: 5px;
 }  
 .content_data #caja3 #generos #mujer{
     display: block;
@@ -372,13 +378,16 @@ font-family: "Gotham";
     color:    white;
     font-family: "GothamBold";
     margin-top: 5px;
-    margin-right: 6px;
+    margin-right: 12px;
 }
 
 .content_data #caja3 #generos{
-    border-bottom: 1px solid white;
     display: block;
-    height: 73px;
+    
+}
+
+#edades{
+    border-top: 1px solid white;
 }
 
 .content_data #caja3 #generos #mujer .fuente{
@@ -421,15 +430,18 @@ font-family: "Gotham";
 }
 
 .content_data .fecha{
-    text-align: left;
-    color:white;
+    color: white;
     font-family: "Gotham";
     font-size: 12px;
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 31px;
+    text-align: center;
+    margin-bottom:35px;
 }
 
 .logomedio{
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .seccion_contacto{
@@ -440,6 +452,125 @@ font-family: "Gotham";
     float: left;
     margin-top: 50px;
 
+}
+
+#edades2 .caja{
+    width: 146px;
+    margin-bottom: 7px;
+}
+
+#caja3b .dato{
+margin-right:15px;
+width: 80px;
+}
+
+#caja3b .fuenteedad{
+    font-size: 14px !important;
+    font-family: "Gotham" !important;
+}
+
+#edades2 .caja div{
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-family: "GothamBold";
+}
+
+.content_data #caja1b
+{display: block;
+float: left;
+border-right: 1px solid white;
+padding-right: 28px;
+margin-right: 19px;
+margin-left: 17px;
+margin-top: 16px;
+}
+
+.content_data #caja2b
+{display: block;
+float: left;
+border-right: 1px solid white;
+padding-right: 28px;
+margin-right: 10px;
+margin-left: 17px;
+margin-top: 16px;
+}
+
+.content_data #caja3b
+{display: block;
+float: left;
+padding-right: 28px;
+margin-right: 35px;
+margin-left: 17px;
+margin-top: 16px;
+}
+
+#videos{
+
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+    }
+
+
+#dataVideo{
+        font-size: 45px;
+        color: white;
+        font-family: "GothamBold";
+        float: left;
+    }
+
+    #dataVistas{
+        font-size: 45px;
+        color: white;
+        font-family: "GothamBold";
+        float: left;
+    }
+    #unidad{
+        font-size: 21px;
+        color: white;
+        font-family: "GothamBold";
+        line-height: 55px;
+        margin-left: 40px;
+    }
+
+    #vod{
+        font-size: 21px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "GothamBold";
+        float: left;
+        line-height: 53px;
+    }
+
+#generos{
+     padding-bottom: 32px;
+}
+
+#caja2b #hombre{
+     font-size: 32px;
+    color: white;
+    font-family: "GothamBold";
+    background-image: url(../img/iconos-info-04.png);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 115px;
+    height: 82px;
+    margin-top: 11px
+}
+
+
+
+#caja2b #mujer{
+    font-size: 32px;
+    color: white;
+    font-family: "GothamBold";
+    background-image: url(../img/iconos-info-05.png);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 115px;
+    height: 41px;
 }
 
 .seccion_contacto .telefono,
@@ -597,7 +728,7 @@ margin-bottom: 19px;
     color: black;
     text-decoration: none;
     font-family: "Gotham";
-    font-size: 18px;
+    font-size: 14px;
 }
 .seccion_formatos .menuizquierdo .activado a{
     color:white;
@@ -1245,7 +1376,7 @@ aside h3{
 
     }
 
-    #footer .wrap div{
+    #footer .wrapfooter div{
         float: left;
         width: 320px;
         height: 370px;

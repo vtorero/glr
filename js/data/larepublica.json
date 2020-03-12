@@ -4,13 +4,14 @@
  "logo":"img/logo-larepublica.png", 
   "browsers": "55'047,737", 
   "paginas":"200'357,678",
-  "desktop":"35%",
+  "desktop":"31%",
   "mobile":"65%",
-  "hombre":"50%",
-  "mujer":"50%",
-  "18-24":"32%",
-  "25-35":"25%",
-  "45-54":"15%",
-  "55":"20%"
+  "hombre":"52%",
+  "mujer":"48%",
+  "edad1":"8%",
+  "edad2":"32%",
+  "edad3":"25%",
+  "edad4":"15%",
+  "edad5":"20%"
   }
 ]

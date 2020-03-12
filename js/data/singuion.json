@@ -1,10 +1,18 @@
 [
  { "medio": "Sin Guión",
-   "browsers": 2.1, 
-   "paginas":4.5,
-   "mobile":6.11,
-  "audiencia":4,
-   "logo":"img/logo-singuion.png" 
+  "logo":"img/logo-singuion.png",
+   "videos": "21",
+   "vod":"(+18 vod)",
+   "vistas":"4",
+   "unidad":"mil",
+   "hombre":"70%",
+  "mujer":  "30%",
+  "edad1":"0.20%",
+  "edad2":"4.00%",
+  "edad3":"23.00%",
+  "edad4":"27.10%",
+  "edad5":"19.34%",
+  "edad6":"14.45%",
+  "edad7":"9.25%"
   }
-  
 ]

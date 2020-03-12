@@ -1,10 +1,18 @@
 [
  { "medio": "El Popular",
-   "browsers": 2.1, 
-   "paginas":4.5,
-   "mobile":6.11,
-  "audiencia":4,
-   "logo":"img/logo-elpopular.png" 
+  "logo":"img/logo-elpopular.png" ,
+   "browsers": "9'372,738", 
+   "paginas":"35'907,713",
+   "desktop":"7%",
+   "mobile":"93%",
+   "hombre":"41%",
+   "mujer":"59%",
+   "edad1":"5%",
+   "edad2":"30%",
+   "edad3":"28%",
+   "edad4":"15%",
+   "edad5":"22%"
+   
   }
   
 ]

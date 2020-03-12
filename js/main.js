@@ -1,6 +1,15 @@
 $(document).ready(function () {
+    var d = new Date().getTime();
+    $.getJSON("js/data/larepublica.json?v="+d, function (data) {
+        cargarDatos(data, 1);
+    });
+
+    $.getJSON("js/data/singuion.json?v="+d, function (data) {
+        cargarDatosMed(data);
+    });
 
     $('.medio').on("click", function (e) {
+        var time = new Date().getTime();
         e.preventDefault();
         var actives = document.getElementsByClassName("listamenu");
         for (var i = 0; i < actives.length; i++) {
@@ -8,21 +17,22 @@ $(document).ready(function () {
         }
         $(this).parents().addClass("activado");
         var ruta = $(this).data('fuente');
-        $.getJSON("js/data/" + ruta+'?v=2', function (data) {
+        $.getJSON("js/data/" + ruta+'?v='+time, function (data) {
             cargarDatos(data, 1);
         });
     });
 
     $('.medio2').on("click", function (e) {
         e.preventDefault();
+        var time = new Date().getTime();
         var actives = document.getElementsByClassName("listamenu2");
         for (var i = 0; i < actives.length; i++) {
             actives[i].classList.remove("activado");
         }
         $(this).parents().addClass("activado");
         var ruta = $(this).data('fuente');
-        $.getJSON("js/data/" + ruta, function (data) {
-            cargarDatos(data, 2);
+        $.getJSON("js/data/" + ruta+"?v="+time, function (data) {
+            cargarDatosMed(data);
         });
     });
 
@@ -59,7 +69,6 @@ $(document).ready(function () {
 
 
     function cargarDatos(datos, id) {
-        console.log(datos[0].logo);
         $("#logomedio" + id).attr("src", datos[0].logo);
         $("#browsers" + id).html(datos[0].browsers);
         $("#paginas" + id).html(datos[0].paginas);
@@ -67,9 +76,29 @@ $(document).ready(function () {
         $("#mobile" + id).html(datos[0].mobile);
         $("#valorH" + id).html(datos[0].hombre);
         $("#valorM" + id).html(datos[0].mujer);
-
-
-
+        $("#edad1data").html(datos[0].edad1);
+        $("#edad2data").html(datos[0].edad2);
+        $("#edad3data").html(datos[0].edad3);
+        $("#edad4data").html(datos[0].edad4);
+        $("#edad5data").html(datos[0].edad5);
     }
+
+    function cargarDatosMed(datos) {
+        $("#logomedio").attr("src", datos[0].logo);
+        $("#dataVideo").html(datos[0].videos);
+        $("#vod").html(datos[0].vod);
+        $("#dataVistas").html(datos[0].vistas);
+        $("#unidad").html(datos[0].unidad);
+        $("#valorH2").html(datos[0].hombre);
+        $("#valorM2").html(datos[0].mujer);
+        $("#1edadb").html(datos[0].edad1);
+        $("#2edadb").html(datos[0].edad2);
+        $("#3edadb").html(datos[0].edad3);
+        $("#4edadb").html(datos[0].edad4);
+        $("#5edadb").html(datos[0].edad5);
+        $("#6edadb").html(datos[0].edad6);
+        $("#7edadb").html(datos[0].edad7);
+    }
+
 
 });

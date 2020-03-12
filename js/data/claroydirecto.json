@@ -1,10 +1,20 @@
 [
  { "medio": "Claro y Directo",
-   "browsers": 2.1, 
-   "paginas":4.5,
-   "mobile":6.11,
-  "audiencia":4,
-   "logo":"img/logo-claroydirecto.png" 
+  "logo":"img/logo-claroydirecto.png" ,
+  "videos": "21",
+  "vod":"(+20 vod)",
+  "vistas":"2",
+  "unidad":"M",
+  "hombre":"26%",
+ "mujer":  "74%",
+ "edad1":"0.18%",
+ "edad2":"4.42%",
+ "edad3":"18.61%",
+ "edad4":"23.74%",
+ "edad5":"22.00%",
+ "edad6":"19.12%",
+ "edad7":"14.10%"
+ 
   }
   
 ]

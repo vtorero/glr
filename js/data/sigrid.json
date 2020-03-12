@@ -1,10 +1,19 @@
 [
  { "medio": "Sigrid",
-   "browsers": 2.1, 
-   "paginas":4.5,
-   "mobile":6.11,
-  "audiencia":4,
-   "logo":"img/logo-sigrid.png" 
+   "logo":"img/logo-sigrid.png",
+   "videos": "21",
+   "vod":"(+17 vod)",
+   "vistas":"2",
+   "unidad":"M",
+   "hombre":"76%",
+  "mujer":  "24%",
+  "edad1":"0.26%",
+  "edad2":"6.87%",
+  "edad3":"25.09%",
+  "edad4":"25.22%",
+  "edad5":"19.12%",
+  "edad6":"13.56%",
+  "edad7":"9.10%"
   }
-  
+
 ]

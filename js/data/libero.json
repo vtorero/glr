@@ -1,10 +1,17 @@
 [
  { "medio": "Libero",
+  "logo":"img/logo-libero.png",
    "browsers": "7'041,449", 
    "paginas":"29'950,495",
-   "mobile":62.11,
-  "audiencia":47,
-   "logo":"img/logo-libero.png" 
+   "desktop":"16%",
+   "mobile":"84%",
+   "hombre":"80%",
+   "mujer":"20%",
+   "edad1":"7%",
+   "edad2":"32%",
+   "edad3":"26%",
+   "edad4":"15%",
+   "edad5":"20%"
   }
-  
+
 ]
