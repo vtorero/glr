@@ -8,7 +8,7 @@ $(document).ready(function () {
         }
         $(this).parents().addClass("activado");
         var ruta = $(this).data('fuente');
-        $.getJSON("js/data/" + ruta, function (data) {
+        $.getJSON("js/data/" + ruta+'?v=2', function (data) {
             cargarDatos(data, 1);
         });
     });
@@ -63,8 +63,11 @@ $(document).ready(function () {
         $("#logomedio" + id).attr("src", datos[0].logo);
         $("#browsers" + id).html(datos[0].browsers);
         $("#paginas" + id).html(datos[0].paginas);
+        $("#desktop" + id).html(datos[0].desktop);
         $("#mobile" + id).html(datos[0].mobile);
-        $("#audiencia" + id).html(datos[0].audiencia);
+        $("#valorH" + id).html(datos[0].hombre);
+        $("#valorM" + id).html(datos[0].mujer);
+
 
 
     }
